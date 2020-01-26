@@ -11,12 +11,11 @@
  */
  
 img {
-	
+
 }
 
- body
- {
-   margin: 0;
+ body {
+   margin-top:0;
    padding-right: 20%;
    padding-left: 20%;
    padding-bottom:20%;
@@ -40,7 +39,7 @@ img {
 	font-family: 'Oswald', sans-serif;
 	text-align:center;
 	color: #202020;
-	font-size: 2vh;
+	font-size: 4vh;
 	margin-top:15%;
 	position:relative;
 	letter-spacing: 0.1em;
@@ -176,7 +175,7 @@ img {
  #menu li
  {
    padding: 10px 0;
-   font-size: 22px;
+   font-size: 3vh;
  }
  
  /*
