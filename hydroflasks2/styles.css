@@ -8,7 +8,11 @@
  * production code, beware of the browser
  * prefixes.
  */
-
+ <style>
+ p {
+	text-align:center
+   }
+   <style>
  body
  {
    margin: 0;
