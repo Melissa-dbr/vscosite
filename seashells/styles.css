@@ -9,15 +9,15 @@ body {
   font-family: "Oswald", "Helvetica Newe", Helvetica, sans-serif;
 }
 .org{
-  border-radius: 100px;
-  height: 200px;
-  width: 200px;
-  padding: 50px;
+  border-radius: 500px;
+  height: 1000px;
+  width: 1000px;
+  padding: 500px;
 }
 
 image{
-  height: 50px;
-  width: 50px ;
+  height: 500px;
+  width: 500px ;
 
 }
 
