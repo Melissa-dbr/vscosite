@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/css?family=Oswald:400);
 /*
  * Made by Erik Terwan
  * 24th of November 2015
@@ -482,8 +483,8 @@
   }
   
   .fontthing2 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 17px;
+	font-family: 'dosis', 'muli';
+	font-size: 200px;
   }
   
   
@@ -526,4 +527,38 @@
 	border-radius: 50%;
 	-webkit-transition: background-color 0.25s ease-in-out;
 	transition: background-color 0.25s ease-in-out;
+  }
+
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 8;
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+	background-color: #;
+  }
+
+  /* Add a gray right border to all list items, except the last item (last-child) */
+li {
+	border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+	border-right: none;
   }
