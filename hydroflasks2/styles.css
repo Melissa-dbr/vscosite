@@ -551,7 +551,7 @@
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-	background-color: #;
+	background-color:;
   }
 
   /* Add a gray right border to all list items, except the last item (last-child) */
