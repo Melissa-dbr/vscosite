@@ -39,6 +39,7 @@ body {
   transform: all 0.3s;
   pointer-events: none;
 }
+
 .pieTip:after {
   position: absolute;
   left: 50%;
