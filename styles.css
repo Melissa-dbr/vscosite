@@ -17,9 +17,17 @@
    /* make it look decent enough */
    background: #e9b82e;
    color: #cdcdcd;
-   font-family: "Avenir Next", "Avenir", sans-serif;
+ 
  }
  
+ .title{
+	 font-family: 'Oswald', sans-serif;
+	 text-align: center;
+	 color: #f5f5f5;
+	 position:relative;
+	 font-size: 10vh;
+ }
+
  #menuToggle
  {
    display: block;
@@ -133,7 +141,7 @@
  {
    position: absolute;
    width: 100%;
-   height: auto;
+   height: 90VH;
    margin: -100px 0 0 -50px;
    padding: 50px;
    padding-top: 125px;
@@ -171,7 +179,7 @@
 }
 
 .grid {
-	margin: 30px auto;
+	margin: 0px auto;
 	padding: 0;
 	list-style: none;
 	min-height: 500px;
