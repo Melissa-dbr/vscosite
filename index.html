@@ -20,7 +20,13 @@
               <link rel="stylesheet" type="text/css" href="css/demo.css" />
               <link rel="stylesheet" type="text/css" href="css/component.css" />
               <script src="js/modernizr.custom.js"></script>
-
+              <script>$(function() {
+                $('a[href*=#]').on('click', function(e) {
+                  e.preventDefault();
+                  $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+                });
+              });
+            </script>
 </head>
 <body>
 
@@ -58,8 +64,42 @@
         </div>
       </nav>
       <div class="title">
-          <h1>ACTUALLY SAVE <BR>THE TURTLES</h1>
+          <h1>ACTUALLY SAVE THE TURTLES</h1>
           </div>
+
+
+          <section class="company-heading intro-type" id="parallax-one">
+              <div class="container">
+                <div class="row product-title-info">
+                  <div class="col-md-12">
+                    <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+                  </div>
+                </div>
+              </div>   
+           </section>
+            <div class="main">
+              <section id="section2">
+                <div class="container jumbo">
+                </div>
+              </section>
+            </div>
+
+            <script>
+            $(document).ready(function(){
+              $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                  event.preventDefault();
+                  var hash = this.hash;
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 1000, function(){
+                    window.location.hash = hash;
+                  });
+                } 
+              });
+            });
+          </script>
+
 
 		<div class="container">
 	
@@ -68,44 +108,18 @@
 				<ul class="grid swipe-down" id="grid">
 
 					<li><a href="hydroflasks/index.html"><img src="img/dummy.png" alt="dummy"><h3>Hydroflasks</h3></a></li>
-					<li><a href=""><img src="img/dummy.png" alt="dummy"><h3>Seashells</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="donation/index.html"><img src="img/dummy.png" alt="dummy"><h3>Donation</h3></a></li>
+					<li><a href="fastfashion/index.html"><img src="img/dummy.png" alt="dummy"><h3>Fast Fashion</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>LOREM IPSUM</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>LOREM IPSUM</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>LOREM IPSUM</h3></a></li>
+          <li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>LOREM IPSUM</h3></a></li>
+          <li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>LOREM IPSUM</h3></a></li>
+          <li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>LOREM IPSUM</h3></a></li>
+          <li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>LOREM IPSUM</h3></a></li>
+          <li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>LOREM IPSUM</h3></a></li>
+          <li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>LOREM IPSUM</h3></a></li>
+          
 				</ul>
 			</section>
 
