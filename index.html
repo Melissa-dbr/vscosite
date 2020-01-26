@@ -1,34 +1,124 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<script type="text/javascript" src="script.js"></script>
+    <title>home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    </script>
+    </head>
+    </body>
+    
+        <html lang="en">
+            <head>
+              <meta charset="UTF-8" />
+              <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+              <meta name="viewport" content="width=device-width, initial-scale=1"> 
+              <title>Grid Loading and Hover Effect | Demo 2</title>
+              <meta name="description" content="Grid Loading and Hover Effect: Recreating Samsung's grid loading effect" />
+              <meta name="keywords" content="grid loading, swipe, effect, slide, masonry, web design, tutorial" />
+              <meta name="author" content="Codrops" />
+              <link rel="shortcut icon" href="../favicon.ico">
+              <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+              <link rel="stylesheet" type="text/css" href="css/demo.css" />
+              <link rel="stylesheet" type="text/css" href="css/component.css" />
+              <script src="js/modernizr.custom.js"></script>
+            </head>
 </head>
 <body>
-
+<!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
 <nav role="navigation">
-    <div id="menuToggle">
-      <input type="checkbox" />
-      <span></span>
-      <span></span>
-      <span></span>
-      
-      <ul id="menu">
-        <a href="#"><li>Home</li></a>
-        <a href="#"><li>mission</li></a>
-        <a href="#"><li>shop</li></a>
-        <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
-      </ul>
-    </div>
-  </nav>
+        <div id="menuToggle">
+          <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" />
+          
+          <!--
+          Some spans to act as a hamburger.
+          
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+          -->
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <!--
+          Too bad the menu has to be inside of the button
+          but hey, it's pure CSS magic.
+          -->
+          <ul id="menu">
+            <a href="index.html"><li>Home</li></a>
+            <a href="mission/index.html"><li>Mission</li></a>
+            <a href="#"><li>Shop</li></a>
+          </ul>
+        </div>
+      </nav>
 
-<div class="links">
-    <a class="index.html" href="#home">Home</a>
-    <a href="fastfashion/index.html">fastfashion</a>
-    <a href="seashells/index.html">seashells</a>
-    <a href="hydroflasks/index.html">hydroflasks</a>
-  </div>
+	<body>
+		<div class="container">
+	
 
+			<section class="grid-wrap">
+				<ul class="grid swipe-down" id="grid">
+
+					<li><a href="hydroflasks/index.html"><img src="img/dummy.png" alt="dummy"><h3>Hydroflasks</h3></a></li>
+					<li><a href="seashells/index.html"><img src="img/dummy.png" alt="dummy"><h3>Seashells</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+				</ul>
+			</section>
+
+		</div><!-- /container -->
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/colorfinder-1.1.js"></script>
+		<script src="js/gridScrollFx.js"></script>
+		<script>
+			new GridScrollFx( document.getElementById( 'grid' ), {
+				viewportFactor : 0.4
+			} );
+		</script>
 </body>
+</html>
 </html>
