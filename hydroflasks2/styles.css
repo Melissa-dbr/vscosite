@@ -20,9 +20,7 @@
  
  }
  
- .ol {
-	width:560;
- }
+
  iframe {
     display: block;
     margin: 0 auto;
@@ -527,5 +525,3 @@
 	-webkit-transition: background-color 0.25s ease-in-out;
 	transition: background-color 0.25s ease-in-out;
   }
-
-
