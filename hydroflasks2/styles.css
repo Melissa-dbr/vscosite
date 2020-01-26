@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/css?family=Oswald:400);
 /*
  * Made by Erik Terwan
  * 24th of November 2015
@@ -482,8 +483,8 @@
   }
   
   .fontthing2 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 17px;
+	font-family: 'dosis', 'muli';
+	font-size: 200px;
   }
   
   
